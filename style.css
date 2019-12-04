@@ -1,0 +1,50 @@
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.logobg
+{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to bottom right,#5A56CD 10%,#D62F7E 60%,#F97F35 70%,#FFD074 90%);
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 2s;
+
+}
+.outline
+{
+    width: 300px;
+    height: 300px;
+    border: white 20px solid;
+    border-radius: 70px;
+}
+.midcircle
+{
+    width: 100px;
+    height: 100px;
+    border: 20px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.circle
+{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    right: -220px;
+}
